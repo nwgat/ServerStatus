@@ -241,22 +241,22 @@ function uptime() {
 			$("#servers > tr.accordion-toggle").each(function(i) {
 				var TableRow = $("#servers tr#r" + i)[0];
 				var ExpandRow = $("#servers #rt" + i);
-				TableRow.children["online4"].children[0].children[0].className = "progress-bar progress-bar-error";
-				TableRow.children["online4"].children[0].children[0].innerHTML = "<small>Error</small>";
-				TableRow.children["online6"].children[0].children[0].className = "progress-bar progress-bar-error";
-				TableRow.children["online6"].children[0].children[0].innerHTML = "<small>Error</small>";
-				TableRow.children["uptime"].innerHTML = "<div class=\"progress progress-striped active\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-error\"><small>Error</small></div></div>";
-				TableRow.children["load"].innerHTML = "<div class=\"progress progress-striped active\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-error\"><small>Error</small></div></div>";
-				TableRow.children["network"].innerHTML = "<div class=\"progress progress-striped active\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-error\"><small>Error</small></div></div>";
-				TableRow.children["cpu"].children[0].children[0].className = "progress-bar progress-bar-error";
-				TableRow.children["cpu"].children[0].children[0].style.width = "100%";
-				TableRow.children["cpu"].children[0].children[0].innerHTML = "<small>Error</small>";
-				TableRow.children["memory"].children[0].children[0].className = "progress-bar progress-bar-error";
-				TableRow.children["memory"].children[0].children[0].style.width = "100%";
-				TableRow.children["memory"].children[0].children[0].innerHTML = "<small>Error</small>";
-				TableRow.children["hdd"].children[0].children[0].className = "progress-bar progress-bar-error";
-				TableRow.children["hdd"].children[0].children[0].style.width = "100%";
-				TableRow.children["hdd"].children[0].children[0].innerHTML = "<small>Error</small>";
+				//TableRow.children["online4"].children[0].children[0].className = "progress-bar progress-bar-error";
+				//TableRow.children["online4"].children[0].children[0].innerHTML = "<small>Error</small>";
+				//TableRow.children["online6"].children[0].children[0].className = "progress-bar progress-bar-error";
+				//TableRow.children["online6"].children[0].children[0].innerHTML = "<small>Error</small>";
+				//TableRow.children["uptime"].innerHTML = "<div class=\"progress progress-striped active\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-error\"><small>Error</small></div></div>";
+				//TableRow.children["load"].innerHTML = "<div class=\"progress progress-striped active\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-error\"><small>Error</small></div></div>";
+				//TableRow.children["network"].innerHTML = "<div class=\"progress progress-striped active\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-error\"><small>Error</small></div></div>";
+				//TableRow.children["cpu"].children[0].children[0].className = "progress-bar progress-bar-error";
+				//TableRow.children["cpu"].children[0].children[0].style.width = "100%";
+				//TableRow.children["cpu"].children[0].children[0].innerHTML = "<small>Error</small>";
+				//TableRow.children["memory"].children[0].children[0].className = "progress-bar progress-bar-error";
+				//TableRow.children["memory"].children[0].children[0].style.width = "100%";
+				//TableRow.children["memory"].children[0].children[0].innerHTML = "<small>Error</small>";
+				//TableRow.children["hdd"].children[0].children[0].className = "progress-bar progress-bar-error";
+				//TableRow.children["hdd"].children[0].children[0].style.width = "100%";
+				//TableRow.children["hdd"].children[0].children[0].innerHTML = "<small>Error</small>";
 				if(ExpandRow.hasClass("in")) {
 					ExpandRow.collapse("hide");
 				}
